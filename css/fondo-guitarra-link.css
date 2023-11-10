@@ -1,0 +1,51 @@
+/* ESTILOS DE GUITARRA FONDO INDEX */
+.container-fondo {
+    position: relative;
+    width: 100%;
+    max-width: 100%; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    margin-bottom: 120px;
+}
+
+.guitarra-fondo {
+    position: relative;
+    text-align: end;
+    color: #fff; /* Color de texto */
+    padding: 20px;
+    z-index: 1; /* Coloca el contenido sobre la imagen de fondo */
+    left: 0;
+    top: 10em;
+}
+
+.guitarra-fondo h2 {
+    font-family: Arial, sans-serif;
+    font-size: 5em;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: end;
+    padding: 10px 0;
+    font-weight: bold; /* Agregamos negrita al texto */
+}
+
+.boton-comprar {
+    display: inline-block;
+    background: #000000;
+    color: #fff; /* Color de texto del botón */
+    padding: 18px 50px;
+    text-decoration: none;
+    margin-top: 65px;
+    margin-right: 60px;
+    font-size: 0.9em;
+}
+
+.container-fondo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 30em;
+    z-index: 0; /* Coloca la imagen de fondo detrás del contenido */
+    object-fit: cover;
+    margin-top: 5em;
+}
+
